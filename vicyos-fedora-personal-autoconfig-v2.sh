@@ -79,8 +79,6 @@ cd ramdon
 sudo sudo rpm -i winff-1.5.5-9.1.x86_64.rpm
 cd ../
 
-
-
 #########################################
 ### Run scripts and install packages ####
 #########################################
@@ -114,7 +112,6 @@ sudo dnf install ImageMagick
 sudo dnf install dialog
 sudo dnf install optipng
 
-
 ./install.sh
 ./install.sh -i fedora
 ./tweaks.sh -f
@@ -147,10 +144,8 @@ sudo rm -r ~/.config/dconf/user
 cp -r user* ~/.config/dconf/
 cd ../
 
-
 # Move my personal .bashrc file to my HOME folder:
 cd fedora-os-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
-
 
 # NVIDIA
 # https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/
