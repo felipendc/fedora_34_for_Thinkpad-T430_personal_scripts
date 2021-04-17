@@ -85,8 +85,8 @@ cd ../
 
 ######### Set my favorite picture as background wallpaper:
 cd vicyos-background-wallpaper
-sudo cp -r *.jpg /usr/share/backgrounds/fedora-workstation
-gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg"
+sudo cp -R *.jpg /usr/share/backgrounds/fedora-workstation/
+gsettings set org.gnome.desktop.background picture-uri "/usr/share/backgrounds/fedora-workstation/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-4096x2304-1455.jpg"
 cd ../
 
 # Install XDownloader Manager: 
