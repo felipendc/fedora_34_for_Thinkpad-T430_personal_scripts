@@ -121,15 +121,20 @@ sudo dnf install optipng
 #./tweaks.sh -d -c dark
 sudo ./tweaks.sh -g
 
+cd ../
+rm -R WhiteSur-gtk-theme
+
+
 # Apple cursor
-cp -R Big_Sur_theme/apple_icons/* ~/.icons/
+mkdir ~/.icons/
+sudo cp -Rv Big_Sur_theme/apple_icons/* ~/.icons/
 
 # Icons for all users
-cp -R Big_Sur_theme/apple_icons/* /usr/share/icons
+sudo cp -Rv Big_Sur_theme/apple_icons/* /usr/share/icons
 
 # Icons for folders
 #cp -R Big_Sur_theme/WhiteSur-icon-theme/* ~/.local/share/icons
-cd ../
+
 
 # TO WRAP IT UP, REBOOT THE COMPUTER, IF NOTHING HAS HAPPENED, USE THE GNOME TWEAK TOOLS TO APPLY THE THEME.
 ####################### DCONFIG ######################
