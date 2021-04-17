@@ -19,7 +19,7 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 sudo dnf check-update -y
 
 # dnf packages:
-sudo dnf install flatpak
+sudo dnf install -y flatpak
 sudo dnf install -y dnf-plugin-system-upgrade 
 sudo dnf install -y google-chrome-stable 
 sudo dnf install -y gnome-tweaks 
@@ -27,7 +27,7 @@ sudo dnf install -y inkscape
 sudo dnf install -y code 
 sudo dnf install -y brasero 
 sudo dnf install -y qbittorrent 
-sudo dnf install mesa-libGLU-devel.x86_64
+sudo dnf install -y mesa-libGLU-devel.x86_64
 sudo dnf install -y mesa-libGLU 
 sudo dnf install -y clipgrab 
 sudo dnf install -y qwinff 
@@ -40,7 +40,7 @@ sudo dnf install -y wine
 sudo dnf install -y deepin-screenshot
 sudo dnf install -y simplescreenrecorder
 sudo dnf install -y deepin-screen-recorder
-sudo dnf install VirtualBox	
+sudo dnf install -y VirtualBox	
 
 # YUM PKGS:
 
