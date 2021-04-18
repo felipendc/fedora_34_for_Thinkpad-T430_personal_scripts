@@ -79,6 +79,12 @@ cd ramdon
 sudo sudo rpm -i winff-1.5.5-9.1.x86_64.rpm
 cd ../
 
+cd ramdon
+wget https://release.axocdn.com/linux/gitkraken-amd64.rpm
+sudo rpm -i gitkraken-amd64.rpm
+sudo rm -R *gitkraken-amd64*
+cd ../
+
 #########################################
 ### Run scripts and install packages ####
 #########################################
