@@ -230,7 +230,7 @@ alias unlock='sudo rm /var/lib/dpkg/lock-frontend && sudo rm /var/lib/dpkg/lock'
 alias fix='sudo dpkg --configure -a'
 alias cloud='scdl -l'
 
-export PATH="$PATH:/home/vicyos/flutter/bin"
+export PATH="$PATH:/$HOME/flutter/bin"
 
 ############ CCACHE to compile android custom roms! ############
 
