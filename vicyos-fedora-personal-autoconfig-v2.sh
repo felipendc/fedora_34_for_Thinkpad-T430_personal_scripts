@@ -107,6 +107,9 @@ cd random && tar -xf xdm*.tar.xz  && sudo ./install.sh && rm -r install.sh readm
 # Set Github email and nickname:
 sudo sh ./upall/setup-git-v1.sh
 
+
+
+
 ################# THEME ######################
 
 # Install WhiteSur-gtk-theme on Fedora 34
@@ -117,7 +120,8 @@ sudo sh ./upall/setup-git-v1.sh
 # Vicyos BK
 git clone https://github.com/felipendc/vicyos-WhiteSur-gtk-theme-backup.git
 
-cd WhiteSur-gtk-theme
+# cd WhiteSur-gtk-theme
+cd vicyos-WhiteSur-gtk-theme-backup
 sudo dnf install gtk-murrine-engine
 sudo dnf install glib2-devel
 sudo dnf install ImageMagick
@@ -134,7 +138,9 @@ sudo ./tweaks.sh -f
 sudo ./tweaks.sh -g
 
 cd ../
-sudo rm -R WhiteSur-gtk-theme
+
+sudo rm -R vicyos-WhiteSur-gtk-theme-backup
+# sudo rm -R WhiteSur-gtk-theme
 
 
 # Apple cursor
