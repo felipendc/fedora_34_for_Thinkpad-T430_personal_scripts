@@ -110,7 +110,13 @@ sudo sh ./upall/setup-git-v1.sh
 ################# THEME ######################
 
 # Install WhiteSur-gtk-theme on Fedora 34
-git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+
+# Original github:
+#git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+
+# Vicyos BK
+git clone https://github.com/felipendc/vicyos-WhiteSur-gtk-theme-backup.git
+
 cd WhiteSur-gtk-theme
 sudo dnf install gtk-murrine-engine
 sudo dnf install glib2-devel
