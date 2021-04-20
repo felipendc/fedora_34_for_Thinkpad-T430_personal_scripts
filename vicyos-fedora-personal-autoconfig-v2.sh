@@ -118,9 +118,9 @@ sudo dnf install ImageMagick
 sudo dnf install dialog
 sudo dnf install optipng
 
-./install.sh
-./install.sh -i fedora
-./tweaks.sh -f
+sudo ./install.sh
+sudo ./install.sh -i fedora
+sudo ./tweaks.sh -f
 
 # Dash to Dock
 #./tweaks.sh -d
@@ -128,7 +128,7 @@ sudo dnf install optipng
 sudo ./tweaks.sh -g
 
 cd ../
-rm -R WhiteSur-gtk-theme
+sudo rm -R WhiteSur-gtk-theme
 
 
 # Apple cursor
