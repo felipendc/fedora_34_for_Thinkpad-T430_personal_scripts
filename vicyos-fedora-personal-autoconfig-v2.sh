@@ -54,16 +54,16 @@ sudo yum install -y fuse-exfat
 
 
 ############### I need to set it up, later!
-#sudo flatpak install -y FLATPAK/com.discordapp.Discord.flatpakref
-#sudo flatpak install -y FLATPAK/net.codeindustry.MasterPDFEditor.flatpakref
-#sudo flatpak install -y FLATPAK/org.clementine_player.Clementine.flatpakref
-#sudo flatpak install -y FLATPAK/org.gimp.GIMP.flatpakref
-#sudo flatpak install -y FLATPAK/org.kde.kdenlive.flatpakref
-#sudo flatpak install -y FLATPAK/org.kde.krita.flatpakref
-#sudo flatpak install -y FLATPAK/org.qbittorrent.qBittorrent.flatpakref
-#sudo flatpak install -y FLATPAK/org.telegram.desktop.flatpakref
+sudo flatpak install -y FLATPAK/com.discordapp.Discord.flatpakref
+sudo flatpak install -y FLATPAK/net.codeindustry.MasterPDFEditor.flatpakref
+sudo flatpak install -y FLATPAK/org.clementine_player.Clementine.flatpakref
+sudo flatpak install -y FLATPAK/org.gimp.GIMP.flatpakref
+sudo flatpak install -y FLATPAK/org.kde.kdenlive.flatpakref
+sudo flatpak install -y FLATPAK/org.kde.krita.flatpakref
+sudo flatpak install -y FLATPAK/org.telegram.desktop.flatpakref
+sudo flatpak install -y FLATPAK/fr.handbrake.ghb.flatpakref
 #sudo flatpak install -y FLATPAK/org.videolan.VLC.flatpakref
-#sudo flatpak install -y FLATPAK/fr.handbrake.ghb.flatpakref
+#sudo flatpak install -y FLATPAK/org.qbittorrent.qBittorrent.flatpakref
 #sudo flatpak install -y FLATPAK/org.filezillaproject.Filezilla.flatpakref
 #sudo flatpak install -y FLATPAK/org.inkscape.Inkscape.flatpakref
 #sudo flatpak install -y FLATPAK/com.visualstudio.code.flatpakref
