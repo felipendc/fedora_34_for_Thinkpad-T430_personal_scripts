@@ -1,0 +1,31 @@
+[Clima-Flutter] flutter pub get
+Running "flutter pub get" in Clima-Flutter...                       3,7s
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Warning
+──────────────────────────────────────────────────────────────────────────────
+Your Flutter application is created using an older version of the Android
+embedding. It's being deprecated in favor of Android embedding v2. Follow the
+steps at
+
+https://flutter.dev/go/android-project-migration
+
+to migrate your project.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+exit code 0
+
+--
+
+[Clima-Flutter] flutter create --ios-language swift --android-language kotlin .
+"Clima-Flutter" is not a valid Dart package name.
+
+See https://dart.dev/tools/pub/pubspec#name for more information.
+exit code 1
+
+--
+
+[Clima-Flutter] flutter create --ios-language swift --android-language kotlin .
+"Clima-Flutter" is not a valid Dart package name.
+
+See https://dart.dev/tools/pub/pubspec#name for more information.
+exit code 1

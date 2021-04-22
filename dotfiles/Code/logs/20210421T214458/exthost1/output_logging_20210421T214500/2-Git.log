@@ -1,0 +1,150 @@
+Looking for git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/pubspec.yaml
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/pubspec.yaml
+> git cat-file -s be6fb3cbe6bd77030bc4f8a2adf84d05bbfe7b46
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/main.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/main.dart
+> git cat-file -s 5b1e98824b5c8f9d2bd7017d628224d6ef1c4387
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/city_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/city_screen.dart
+> git cat-file -s 25c4e40cb5fa77da1d6ca97b34c02ec101deaef4
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git cat-file -s 0701e62f1d9c826d3dd9eb85abdb273bfb60a011
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/location_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/location_screen.dart
+> git cat-file -s 6752c054eca94fb15776737fd881d6880e0ca63a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git cat-file -s 0701e62f1d9c826d3dd9eb85abdb273bfb60a011
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/city_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/city_screen.dart
+> git cat-file -s 25c4e40cb5fa77da1d6ca97b34c02ec101deaef4
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/main.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/main.dart
+> git cat-file -s 5b1e98824b5c8f9d2bd7017d628224d6ef1c4387
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/city_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/city_screen.dart
+> git cat-file -s 25c4e40cb5fa77da1d6ca97b34c02ec101deaef4
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git cat-file -s 0701e62f1d9c826d3dd9eb85abdb273bfb60a011
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/services/location.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/services/location.dart
+> git cat-file -s 42be7166a93747c0f7ed65a137e3ccc98d539a3b
+> git check-ignore -v -z --stdin
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git cat-file -s 0701e62f1d9c826d3dd9eb85abdb273bfb60a011
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/services/location.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/services/location.dart
+> git cat-file -s 42be7166a93747c0f7ed65a137e3ccc98d539a3b
+> git show --textconv :FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git ls-files --stage -- /home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/FLUTTER/Angela/Clima-Flutter/lib/screens/loading_screen.dart
+> git cat-file -s 0701e62f1d9c826d3dd9eb85abdb273bfb60a011
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/vicyos/Documentos/GIT FOLDERS/vicyos-programming-files/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template

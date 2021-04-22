@@ -174,8 +174,11 @@ cd fedora-os-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
 # https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/
 
 
+##### DOTFILES
 
-
+cd dotfiles 
+cp -Rv * ~/.config/
+cd ../
 
 
 
