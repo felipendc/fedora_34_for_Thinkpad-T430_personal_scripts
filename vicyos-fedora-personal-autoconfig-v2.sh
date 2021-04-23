@@ -177,9 +177,9 @@ cd fedora-os-personal-bashrc && sudo cp -r .bashrc* ~/ && cd ../
 ##### DOTFILES
 
 cd dotfiles 
-cp -Rv * ~/.config/
+cp -Rv Code ~/.config/
+cp -Rv gedit ~/.local/share
 cd ../
-
 
 
 
