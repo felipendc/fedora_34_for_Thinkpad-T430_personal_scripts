@@ -1,3 +1,12 @@
+<br />
+
+***How to update Grub on Fedora:***
+
+<pre>
+sudo su
+grub2-mkconfig -o /boot/grub2/grub.cfg
+</pre>
+
 ![](https://i.imgur.com/dnitXLD.png)
 ![](https://i.imgur.com/PxAm436.png)
 ![](https://i.imgur.com/Hdk5PsM.png)
@@ -35,3 +44,4 @@
 ![](https://i.imgur.com/TlZbxKM.png)
 ![](https://i.imgur.com/IkEv67J.png)
 ![](https://i.imgur.com/KYBbtsH.png)
+![](https://i.imgur.com/B9bbK9h.png)
