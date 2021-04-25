@@ -1,11 +1,11 @@
-<br />
-
 ***How to update Grub on Fedora:***
 
 <pre>
 sudo su
 grub2-mkconfig -o /boot/grub2/grub.cfg
 </pre>
+
+<br />
 
 
 ***How to run the scripts:***
