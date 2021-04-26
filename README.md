@@ -11,10 +11,10 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 ***How to run the scripts:***
 
 <pre>
-# To install the "Big Sur theme" and all the packages:
+# To install the "Big Sur theme" and all the packages, run:
 ./vicyos-fedora-personal-autoconfig-v2.sh 
 
-To install the "Big Sur theme" only:
+To install the "Big Sur theme" only, run:
 ./install_big_sur-theme_only.sh 
 </pre>
 
