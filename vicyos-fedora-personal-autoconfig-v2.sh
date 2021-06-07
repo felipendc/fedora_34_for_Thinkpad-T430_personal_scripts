@@ -151,7 +151,8 @@ sudo cp -Rv Big_Sur_theme/apple_icons/* ~/.icons/
 sudo cp -Rv Big_Sur_theme/apple_icons/* /usr/share/icons
 
 # Icons for folders
-cp -Rv Big_Sur_theme/WhiteSur-icon-theme/* ~/.local/share/icons
+mkdir ~/.local/share/icons
+sudo cp -Rv Big_Sur_theme/WhiteSur-icon-theme/* ~/.local/share/icons
 
 
 # TO WRAP IT UP, REBOOT THE COMPUTER, IF NOTHING HAS HAPPENED, USE THE GNOME TWEAK TOOLS TO APPLY THE THEME.
